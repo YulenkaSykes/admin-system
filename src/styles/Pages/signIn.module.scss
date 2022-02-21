@@ -1,0 +1,42 @@
+.sign{
+    width: 50%;
+    height: 85vh;
+    margin: auto;
+    .input{
+        width: 30%;
+        height: 60px;
+    }
+    h1{
+        font-weight: bold;
+        font-size: 60px;
+        margin: auto;
+    }
+    button{
+        width: 100px;
+        height: 40px;
+        background: #EFF0F6;
+        border-radius: 12px;
+        margin: 20px;
+        cursor: pointer;
+        transition: all 0.3s;
+        transform: scale(1);
+    }
+    button:hover{
+        transform: scale(1.1);
+    }
+    .footer{
+        position: fixed;
+        bottom: 20%;
+        .link{
+            margin: 10px;
+            color: black;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .link:hover{
+            border-radius: 10px;
+            border: 1px solid black
+        }
+        
+    }
+}

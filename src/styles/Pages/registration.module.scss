@@ -1,0 +1,63 @@
+.registration{
+    width: 70%;
+    height: 85vh;
+    margin: auto;
+        
+        h1{
+            font-weight: bold;
+            font-size: 60px;
+        }
+        .boxInput{
+            width: 70%;
+            .input{
+                width: 30%;
+                height: 60px;
+            }
+    
+                .box{
+                
+                    .boxCheckbox{
+                        width: 10px;
+                        height: 10px;
+                        border: 1px solid black;
+                        margin: 10px;
+                
+                    .checkbox{
+                        width: 8px;
+                        height: 8px;
+                        border: 1px solid white;
+                        background: black;
+                    }
+                }
+            }
+            button{
+                width: 100px;
+                height: 40px;
+                background: #EFF0F6;
+                border-radius: 12px;
+                margin: 20px;
+                cursor: pointer;
+                transition: all 0.3s;
+                transform: scale(1);
+            }
+            button:hover{
+                transform: scale(1.1);
+            }
+        }
+        .footer{
+            position: fixed;
+            bottom: 20%;
+            .link{
+                margin: 10px;
+                color: black;
+                font-weight: bold;
+                transition: all 0.3s;
+            }
+            .link:hover{
+                border-radius: 10px;
+                border: 1px solid black
+            }
+            
+        }
+    
+}

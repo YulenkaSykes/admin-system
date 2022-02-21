@@ -1,0 +1,38 @@
+.wrapperProfiles{
+    width: 100%;
+    height: auto;
+        .text{
+            width: 10%;
+            margin: 50px;
+        }
+    .profiles{
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .card{
+            position: relative;
+            width: 300px;
+            height: 270px;
+            background: white;
+            border: 1px solid #D6D8E7;
+            box-shadow: 0px 8px 16px rgba(17, 17, 17, 0.04);
+            border-radius: 16px;
+            margin: 50px;
+    
+            .cardButton{
+               width: 35%;
+               height: 100px;
+               border-radius: 50%;
+               background: white;
+               border: 1px solid #949292;
+               cursor: pointer;
+               transition: all 0.3s;
+               transform: scale(1);
+            }
+            .cardButton:hover{
+                transform: scale(1.1);
+            }
+        }
+        
+    }
+}
